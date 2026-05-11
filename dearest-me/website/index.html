@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dearest Me Wellness Spa - Rejuvenate your Body. Mind. Soul.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Cormorant Garamond', Garamond, Georgia, serif; }
+    .hero-gradient { background: linear-gradient(135deg, #0B1F07 0%, #456B22 55%, #6BBF38 100%); }
+    .service-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(37,99,235,0.12); }
+    .service-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Nav -->
+  <nav class="bg-white border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="../logo.jpg" alt="Dearest Me Wellness Spa" class="h-10 w-auto object-contain" onerror="this.style.display='none'">
+        <span class="font-black text-base text-gray-900 leading-tight">Dearest Me Wellness Spa</span>
+      </a>
+      <div class="hidden md:flex items-center gap-8 text-base font-medium text-gray-600">
+        <a href="index.html" class="font-bold" style="color:#6BBF38">Home</a>
+        <a href="about.html" class="hover:text-gray-900 transition">About</a>
+        <a href="services.html" class="hover:text-gray-900 transition">Services</a>
+        <a href="contact.html" class="hover:text-gray-900 transition">Contact</a>
+      </div>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="book.html" class="px-6 py-3 rounded-xl text-white text-base font-bold hover:opacity-90 transition-opacity" style="background-color:#6BBF38">Book Now</a>
+      </div>
+      <button id="nav-toggle" class="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <div id="nav-menu" class="hidden md:hidden border-t border-gray-100 px-6 py-5 flex flex-col gap-5 text-base font-medium text-gray-600">
+      <a href="index.html" class="font-bold" style="color:#6BBF38">Home</a>
+      <a href="about.html" class="hover:text-gray-900">About</a>
+      <a href="services.html" class="hover:text-gray-900">Services</a>
+      <a href="contact.html" class="hover:text-gray-900">Contact</a>
+      <a href="book.html" class="px-6 py-3 rounded-xl text-white text-base font-bold text-center" style="background-color:#6BBF38">Book Appointment</a>
+    </div>
+  </nav>
+  <script>
+    document.getElementById('nav-toggle').addEventListener('click', function() {
+      document.getElementById('nav-menu').classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- Hero -->
+  <section class="hero-gradient relative overflow-hidden" style="min-height:90vh">
+    <div class="absolute inset-0 opacity-5" style="background-image:radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size:32px 32px;"></div>
+    <div class="relative max-w-5xl mx-auto px-6 flex flex-col items-center justify-center text-center" style="min-height:90vh; padding-top:80px; padding-bottom:80px;">
+      <!-- Logo -->
+      <div class="mb-6">
+        <img src="../logo.jpg" alt="Dearest Me Wellness Spa" class="h-24 w-24 rounded-full object-contain mx-auto shadow-2xl" style="background:rgba(255,255,255,0.12); padding:8px;" onerror="this.outerHTML='<div class=\'w-24 h-24 rounded-full mx-auto flex items-center justify-center\' style=\'background:rgba(255,255,255,0.15);\'><svg class=\'w-12 h-12 text-white\' fill=\'currentColor\' viewBox=\'0 0 24 24\'><path d=\'M12 2C8.5 2 6 5 6 8c0 2.5 1 4.5 2 6l1 5h6l1-5c1-1.5 2-3.5 2-6 0-3-2.5-6-6-6z\'/></svg></div>'">
+      </div>
+      <!-- Trust badge -->
+      <div class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold mb-8" style="background:rgba(255,255,255,0.12); color:rgba(255,255,255,0.95); border:1px solid rgba(255,255,255,0.25)">
+        <span>⭐⭐⭐⭐⭐</span>
+        <span>4.9 on Google · Trusted by local families</span>
+      </div>
+      <!-- Clinic name — BIG -->
+      <h1 class="font-black text-white uppercase leading-none mb-4" style="font-size:clamp(2.5rem, 8vw, 5.5rem); letter-spacing:-0.02em; line-height:1.05">
+        Dearest Me Wellness Spa
+      </h1>
+      <p class="text-white text-lg sm:text-xl mb-10 max-w-lg leading-relaxed" style="opacity:0.9">
+        Rejuvenate your Body. Mind. Soul.
+      </p>
+      <!-- CTAs -->
+      <div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+        <a href="book.html" class="w-full sm:w-auto px-10 py-4 rounded-xl bg-white font-bold text-base hover:bg-gray-100 transition-colors shadow-lg" style="color:#6BBF38">
+          Book an Appointment
+        </a>
+        <a href="services.html" class="w-full sm:w-auto px-10 py-4 rounded-xl font-semibold text-base text-white text-center transition-colors" style="border:2px solid rgba(255,255,255,0.35); background:rgba(255,255,255,0.1)">
+          See Our Services
+        </a>
+      </div>
+      <!-- Style switcher -->
+      <div class="mt-10 text-sm text-blue-300">
+        Viewing: <strong class="text-white">Style A — Premium Dark</strong> &nbsp;·&nbsp;
+        <a href="index-style-b.html" class="underline hover:text-white transition">Switch to Style B — Clean White</a>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0">
+      <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width:100%;height:60px;display:block">
+        <path d="M0 60L1440 60L1440 20C1200 60 960 0 720 20C480 40 240 0 0 20L0 60Z" fill="white"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Trust bar -->
+  <section class="border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-8 grid grid-cols-3 gap-4 text-center">
+      <div>
+        <p class="text-3xl sm:text-4xl font-black text-gray-900">15+</p>
+        <p class="text-sm sm:text-base text-gray-500 font-medium mt-1">Years of trusted care</p>
+      </div>
+      <div class="border-x border-gray-100">
+        <p class="text-3xl sm:text-4xl font-black text-gray-900">4.9★</p>
+        <p class="text-sm sm:text-base text-gray-500 font-medium mt-1">Google rating</p>
+      </div>
+      <div>
+        <p class="text-3xl sm:text-4xl font-black text-gray-900">2,000+</p>
+        <p class="text-sm sm:text-base text-gray-500 font-medium mt-1">Happy patients</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <div class="text-center mb-14">
+      <p class="text-sm font-bold uppercase tracking-widest mb-3" style="color:#6BBF38">What we offer</p>
+      <h2 class="text-4xl sm:text-5xl font-black text-gray-900 mb-4" style="letter-spacing:-0.02em">Our Services</h2>
+      <p class="text-gray-500 max-w-lg mx-auto text-lg leading-relaxed">Relaxation and wellness treatments to restore your body, clear your mind, and lift your spirit.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+        <div class="w-14 h-14 rounded-xl mb-5 flex items-center justify-center" style="background:#EAF5DC">
+          <svg class="w-7 h-7" style="color:#6BBF38" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-900 text-lg mb-2">Swedish Massage</h3>
+        <p class="text-gray-500 text-base leading-relaxed">Full-body relaxation massage that melts stress and improves circulation in 60 or 90 minutes.</p>
+        <a href="services.html" class="inline-block mt-5 text-sm font-bold hover:underline" style="color:#6BBF38">Learn more →</a>
+      </div>
+      <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+        <div class="w-14 h-14 rounded-xl mb-5 flex items-center justify-center" style="background:#EAF5DC">
+          <svg class="w-7 h-7" style="color:#6BBF38" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-900 text-lg mb-2">Hot Stone Therapy</h3>
+        <p class="text-gray-500 text-base leading-relaxed">Warm stones melt deep muscle tension — the ultimate Baguio cold-weather treatment.</p>
+        <a href="services.html" class="inline-block mt-5 text-sm font-bold hover:underline" style="color:#6BBF38">Learn more →</a>
+      </div>
+      <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+        <div class="w-14 h-14 rounded-xl mb-5 flex items-center justify-center" style="background:#EAF5DC">
+          <svg class="w-7 h-7" style="color:#6BBF38" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-900 text-lg mb-2">Foot Reflexology</h3>
+        <p class="text-gray-500 text-base leading-relaxed">Targeted pressure on foot reflex points to relieve pain, improve sleep, and boost energy.</p>
+        <a href="services.html" class="inline-block mt-5 text-sm font-bold hover:underline" style="color:#6BBF38">Learn more →</a>
+      </div>
+      <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+        <div class="w-14 h-14 rounded-xl mb-5 flex items-center justify-center" style="background:#EAF5DC">
+          <svg class="w-7 h-7" style="color:#6BBF38" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-900 text-lg mb-2">Body Scrub &amp; Wrap</h3>
+        <p class="text-gray-500 text-base leading-relaxed">Exfoliation and hydration treatments for softer, brighter, refreshed skin.</p>
+        <a href="services.html" class="inline-block mt-5 text-sm font-bold hover:underline" style="color:#6BBF38">Learn more →</a>
+      </div>
+      <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+        <div class="w-14 h-14 rounded-xl mb-5 flex items-center justify-center" style="background:#EAF5DC">
+          <svg class="w-7 h-7" style="color:#6BBF38" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-900 text-lg mb-2">Facial Treatment</h3>
+        <p class="text-gray-500 text-base leading-relaxed">Cleansing, hydrating facials tailored to your skin type and concerns.</p>
+        <a href="services.html" class="inline-block mt-5 text-sm font-bold hover:underline" style="color:#6BBF38">Learn more →</a>
+      </div>
+      <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+        <div class="w-14 h-14 rounded-xl mb-5 flex items-center justify-center" style="background:#EAF5DC">
+          <svg class="w-7 h-7" style="color:#6BBF38" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-900 text-lg mb-2">Aromatherapy Massage</h3>
+        <p class="text-gray-500 text-base leading-relaxed">Essential oil blends chosen for your mood — calming, uplifting, or energizing.</p>
+        <a href="services.html" class="inline-block mt-5 text-sm font-bold hover:underline" style="color:#6BBF38">Learn more →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why choose us -->
+  <section style="background:#F8FAFC" class="border-t border-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="text-center mb-14">
+        <p class="text-sm font-bold uppercase tracking-widest mb-3" style="color:#6BBF38">Why patients choose us</p>
+        <h2 class="text-4xl sm:text-5xl font-black text-gray-900" style="letter-spacing:-0.02em">Dentistry done right</h2>
+      </div>
+      <div class="grid sm:grid-cols-3 gap-10">
+        <div class="text-center">
+          <div class="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center" style="background:#6BBF38">
+            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-xl mb-3">Licensed &amp; Experienced</h3>
+          <p class="text-gray-500 text-base leading-relaxed">Our dentists hold full PRC licenses and bring 15+ years of hands-on experience to every visit.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center" style="background:#6BBF38">
+            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-xl mb-3">Modern Equipment</h3>
+          <p class="text-gray-500 text-base leading-relaxed">Digital X-rays, sterilized instruments, and up-to-date technology for faster, safer care.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center" style="background:#6BBF38">
+            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-xl mb-3">Book Online Anytime</h3>
+          <p class="text-gray-500 text-base leading-relaxed">No phone calls needed. Pick your time, confirm instantly, get a reminder before your visit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <div class="text-center mb-14">
+      <p class="text-sm font-bold uppercase tracking-widest mb-3" style="color:#6BBF38">Patient reviews</p>
+      <h2 class="text-4xl sm:text-5xl font-black text-gray-900 mb-4" style="letter-spacing:-0.02em">Real people. Real smiles.</h2>
+      <div class="flex items-center justify-center gap-2 mt-3">
+        <span class="text-xl" style="color:#F59E0B">★★★★★</span>
+        <span class="text-base font-semibold text-gray-700">4.9 on Google</span>
+        <span class="text-base text-gray-400">· 50+ reviews</span>
+      </div>
+    </div>
+    <div class="grid sm:grid-cols-3 gap-6">
+      <div class="bg-white border border-gray-200 rounded-2xl p-8">
+        <div class="flex items-center gap-1 mb-4 text-xl" style="color:#F59E0B">★★★★★</div>
+        <p class="text-gray-700 text-base leading-relaxed mb-5">"Very professional and gentle. I used to be scared of the dentist but their team made me feel completely at ease. Highly recommend!"</p>
+        <p class="font-bold text-gray-900">Maria C.</p>
+        <p class="text-gray-400 text-sm">Baguio City</p>
+      </div>
+      <div class="bg-white border border-gray-200 rounded-2xl p-8">
+        <div class="flex items-center gap-1 mb-4 text-xl" style="color:#F59E0B">★★★★★</div>
+        <p class="text-gray-700 text-base leading-relaxed mb-5">"Got my teeth whitened here. The result was amazing — so much brighter. Clinic is clean, staff are friendly. Will definitely come back."</p>
+        <p class="font-bold text-gray-900">Jose B.</p>
+        <p class="text-gray-400 text-sm">La Trinidad, Benguet</p>
+      </div>
+      <div class="bg-white border border-gray-200 rounded-2xl p-8">
+        <div class="flex items-center gap-1 mb-4 text-xl" style="color:#F59E0B">★★★★★</div>
+        <p class="text-gray-700 text-base leading-relaxed mb-5">"Brought my kids here for their first check-up. The dentist was so patient with them. Booking online was super easy too. Great experience!"</p>
+        <p class="font-bold text-gray-900">Grace T.</p>
+        <p class="text-gray-400 text-sm">Baguio City</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA strip -->
+  <section class="text-white text-center px-6 py-20" style="background:linear-gradient(135deg, #456B22 0%, #6BBF38 100%)">
+    <h2 class="text-3xl sm:text-5xl font-black mb-4" style="letter-spacing:-0.02em">Ready for a healthier smile?</h2>
+    <p class="text-blue-200 mb-10 text-lg max-w-md mx-auto">We're accepting new patients. Book your appointment in under 2 minutes.</p>
+    <a href="book.html" class="inline-block px-12 py-5 rounded-xl bg-white font-bold text-base hover:bg-gray-100 transition-colors shadow-xl" style="color:#6BBF38">
+      Book an Appointment
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background:#0B1F07">
+    <div class="max-w-6xl mx-auto px-6 pt-16 pb-8 grid sm:grid-cols-3 gap-12 text-base text-slate-400">
+      <div>
+        <div class="flex items-center gap-3 mb-5">
+          <img src="../logo.jpg" alt="logo" class="h-10 w-10 rounded-full object-contain" style="background:rgba(255,255,255,0.1); padding:4px" onerror="this.style.display='none'">
+          <p class="font-black text-white">Dearest Me Wellness Spa</p>
+        </div>
+        <p class="text-slate-400 leading-relaxed">Trusted dental care for the whole family. Serving Baguio City and Benguet since 2010.</p>
+      </div>
+      <div>
+        <p class="font-bold text-white text-lg mb-5">Contact &amp; Hours</p>
+        <p class="mb-2">📍 12 City Camp Rd, Baguio City</p>
+        <p class="mb-5">📞 0917 142 0966</p>
+        <p class="text-sm leading-relaxed">Open daily — message to confirm hours</p>
+      </div>
+      <div>
+        <p class="font-bold text-white text-lg mb-5">Quick Links</p>
+        <a href="about.html" class="block mb-3 hover:text-white transition">About Us</a>
+        <a href="services.html" class="block mb-3 hover:text-white transition">Services</a>
+        <a href="book.html" class="block mb-3 hover:text-white transition">Book Appointment</a>
+        <a href="contact.html" class="block mb-3 hover:text-white transition">Contact</a>
+        <a href="#" class="block hover:text-white transition">Facebook Page</a>
+      </div>
+    </div>
+    <div class="border-t border-slate-800">
+      <div class="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-slate-500">
+        <span>&copy; 2026 Dearest Me Wellness Spa. All rights reserved.</span>
+        <span>Website by <span style="color:#02B3E9" class="font-semibold">Allen Enriquez</span></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

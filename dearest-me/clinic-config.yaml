@@ -1,0 +1,29 @@
+logo_url: logo.jpg
+accent_color: "#6BBF38"
+accent_color_dark: "#456B22"
+accent_color_light: "#EAF5DC"
+hero_start_color: "#0B1F07"
+brand_color: "#6BBF38"
+brand_color_dark: "#456B22"
+brand_color_light: "#EAF5DC"
+cta_url: "https://www.facebook.com/allenenriquezzz"
+facebook_url: "https://www.facebook.com/dearestmewelness"
+
+# Font — Cormorant Garamond matches their elegant script brand identity
+font_name: "Cormorant Garamond"
+font_weights: "400;600;700"
+font_stack: "'Cormorant Garamond', Garamond, Georgia, serif"
+
+# Clinic details
+location: "12 City Camp Rd, Baguio City"
+tagline: "Rejuvenate your Body. Mind. Soul."
+address: "12 City Camp Rd, Baguio City"
+phone: "0917 142 0966"
+hours: "Open daily — message to confirm hours"
+ig_handle: "dmwsbaguio"
+booking_url: "https://www.facebook.com/dearestmewelness"
+
+# Services section
+services_section_header: Our Services
+services_section_desc: Relaxation and wellness treatments to restore your body, clear your mind, and lift your spirit.
+services: "Swedish Massage::Full-body relaxation massage that melts stress and improves circulation in 60 or 90 minutes.|Hot Stone Therapy::Warm stones melt deep muscle tension — the ultimate Baguio cold-weather treatment.|Foot Reflexology::Targeted pressure on foot reflex points to relieve pain, improve sleep, and boost energy.|Body Scrub & Wrap::Exfoliation and hydration treatments for softer, brighter, refreshed skin.|Facial Treatment::Cleansing, hydrating facials tailored to your skin type and concerns.|Aromatherapy Massage::Essential oil blends chosen for your mood — calming, uplifting, or energizing."

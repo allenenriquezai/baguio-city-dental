@@ -1,0 +1,29 @@
+logo_url: logo.jpg
+accent_color: "#C4A060"
+accent_color_dark: "#8B6E3A"
+accent_color_light: "#F5EFE0"
+hero_start_color: "#1A1208"
+brand_color: "#C4A060"
+brand_color_dark: "#8B6E3A"
+brand_color_light: "#F5EFE0"
+cta_url: "https://www.facebook.com/allenenriquezzz"
+facebook_url: "https://www.facebook.com/relive.launion"
+
+# Font — Playfair Display matches their premium serif brand identity
+font_name: "Playfair Display"
+font_weights: "400;600;700;900"
+font_stack: "'Playfair Display', Georgia, serif"
+
+# Clinic details
+location: "San Fernando, La Union"
+tagline: "Where every skin is cherished"
+address: "San Fernando, La Union"
+phone: "0930 706 7183"
+hours: "Mon–Sat: 10am–7pm"
+ig_handle: ""
+booking_url: "https://www.facebook.com/relive.launion"
+
+# Services section
+services_section_header: Our Treatments
+services_section_desc: Skin and body treatments designed for visible results — done safely, by experienced professionals.
+services: "Laser Hair Removal::Permanent hair reduction for face, underarms, legs, and bikini area.|Skin Whitening & Brightening::Glutathione IV drip, laser facial, and brightening for an even glowing complexion.|Body Slimming::Non-invasive fat reduction and body contouring for visible shape.|Facial Rejuvenation::Hydrafacial, chemical peels, and anti-aging treatments for clear youthful skin.|Acne & Scar Treatment::Medical-grade laser and peels for acne scars and active breakouts.|IV Drip Therapy::Vitamin C, glutathione, and immunity cocktails for inner glow and radiance."
