@@ -1,0 +1,51 @@
+logo_url: logo.jpg
+accent_color: "#B89A35"
+brand_color: "#8B6914"
+cta_url: "https://www.facebook.com/allenenriquezzz"
+
+location: "Baguio City, Benguet"
+tagline: "Beauty begins here."
+address: "Olive Town Center & Hotel, Lower Gen Luna, Baguio City"
+phone: "0945 420 2737 / (619) 4442"
+hours: "Mon–Sun: by appointment"
+
+booking_url: "https://www.facebook.com/LeddaMaryJane"
+
+services: "Microblading::Semi-permanent brow technique using fine hair strokes. Natural, defined brows that last 1–2 years. ₱4,000.|Nanopinning::Precision nano-needle brow treatment for a soft, powdered finish. ₱5,000.|Micropinning::Advanced micro-needle brow tattoo — bold, defined, long-lasting results. ₱6,000.|Lashes::Professional lash treatments for fuller, longer-looking lashes.|Facial::Relaxing and brightening facials — FREE with any brow treatment.|Gluta IV Drip::Glutathione infusion for skin brightening and antioxidant benefits.|Nails::Nail care and enhancement services.|Piercing::Safe, professional body and ear piercing."
+
+services_section_header: "Our Services"
+services_section_desc: "PMU, aesthetics, and beauty — all under one roof in Baguio City."
+
+hero_start_color: "#1C1008"
+hero_headline_b: "Beauty<br>begins here."
+hero_subtext_b: "PMU, aesthetics, and beauty treatments by a Registered Nurse. Serving Baguio City."
+
+trust_stat_1: "5★"
+trust_stat_1_label: "Google rating"
+trust_stat_2: "500+"
+trust_stat_2_label: "Happy clients"
+trust_stat_3: "RN"
+trust_stat_3_label: "Certified artist"
+
+why_us_headline: "PMU & aesthetics done right"
+why_us_p1_title: "RN-Certified Artist"
+why_us_p1_desc: "Mary Jane Ledda is a Registered Nurse and PMU PH International Academy Master. Your safety and your results are always the priority."
+why_us_p2_title: "Precision Techniques"
+why_us_p2_desc: "Microblading, nanopinning, and micropinning — each matched to your face shape, skin type, and lifestyle."
+why_us_p3_title: "Book Online Anytime"
+why_us_p3_desc: "No phone calls needed. Pick your slot, confirm instantly, get a reminder before your visit."
+
+reviews_headline: "Real clients. Real transformations."
+review_1_text: "\"My brows have never looked better. Mary Jane is so precise and professional. Worth every peso!\""
+review_1_name: "Maria C."
+review_1_location: "Baguio City"
+review_2_text: "\"Got microblading done and I am obsessed. The result is so natural and the studio is very clean.\""
+review_2_name: "Joy B."
+review_2_location: "La Trinidad, Benguet"
+review_3_text: "\"I was nervous at first but Mary Jane made me feel so comfortable. My brows look amazing!\""
+review_3_name: "Grace T."
+review_3_location: "Baguio City"
+
+cta_headline: "Ready for flawless brows?"
+cta_subtext: "Accepting new clients now. Book your appointment in 2 minutes — no phone calls needed."
+footer_desc: "PMU, aesthetics, and beauty by a Registered Nurse. Serving Baguio City and Benguet."
